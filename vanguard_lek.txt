@@ -1,0 +1,32 @@
+=== VANGUARD LOGISTICS - INTERN INCIDENT RAPPORT ===
+Datum: 14-03-2025
+Opgesteld door: SOC-team
+
+BETROKKEN MEDEWERKERS:
+- Jan de Vries (j.devries@vanguard-logistics.nl) - Teamleider operations
+- Sarah Bakker (s.bakker@vanguard-logistics.nl) - IT-beheerder  
+- Mohamed El Amrani (m.elamrani@vanguard-logistics.nl) - Security analyst
+- Lisa Janssen (l.janssen@vanguard-logistics.nl) - Finance
+
+BETROKKEN SYSTEMEN:
+- Logistiek platform: 192.168.10.45
+- Backup server: 10.0.0.12
+- Externe toegang: 185.220.101.33
+- Magazijn scanner: 172.16.5.89
+
+CONTACT EXTERNE PARTIJEN:
+- Douane Rotterdam: +31 10 702 8000
+- Maersk support: +31 88 900 1000
+- DHL helpdesk: +31 85 902 0000
+- Incident hotline: +31 20 555 7890
+
+VERDACHTE DOMEINEN GEVONDEN IN LOGS:
+- phishing-vanguard.ru
+- vanguard-Iogins.com (hoofdletter i als l)
+- support@vanguard-helpdesk.xyz
+
+SAMENVATTING:
+Op 14 maart werd een phishing-aanval gedetecteerd gericht op medewerkers van Vanguard Logistics.
+De aanval maakte gebruik van een valse inlogpagina op het domein vanguard-Iogins.com.
+Drie medewerkers klikten op de link. IT heeft de systemen 192.168.10.45 en 10.0.0.12
+preventief offline gehaald. Contact opnemen via j.devries@vanguard-logistics.nl voor vragen.

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python regex_vanguard.py)",
+      "Bash(python expressie.py)",
+      "Bash(python PasswordListGenerator_vanguard.py)",
+      "Bash(python banner_grabber.py)"
+    ]
+  }
+}
