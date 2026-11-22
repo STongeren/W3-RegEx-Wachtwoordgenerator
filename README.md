@@ -4,7 +4,7 @@ Python exercises from my Cyber Security programme at the Hogeschool van Amsterda
 
 | Script | What it does |
 |---|---|
-| `regex_vanguard.py` | Pulls e-mail addresses, IP addresses, phone numbers and suspicious domains out of the leaked report (`vanguard_lek.txt`) with regular expressions, including a look-alike domain that uses a capital I instead of an l |
+| `regex_vanguard.py` | Pulls e-mail addresses, IP addresses, phone numbers and suspicious domains out of the leaked report (`vanguard_lek.txt`) with regular expressions (suspicious domains are matched on risky TLDs such as .ru and .xyz) |
 | `email_finder.py` | Scrapes a web page (Selenium for JavaScript pages, plain HTTP as fallback) and lists every e-mail address it finds |
 | `banner_grabber.py` | Grabs HTTP and raw TCP banners (SSH, FTP) to see which software a server announces |
 | `PasswordListGenerator_vanguard.py` | Builds a targeted wordlist from personal details such as names, birth date and phone number, to show why passwords based on personal facts are weak. Adapted from [utpalbalse/PasswordListGenerator](https://github.com/utpalbalse/PasswordListGenerator) |
